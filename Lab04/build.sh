@@ -1,7 +1,9 @@
 g++ main.cpp -pthread -o main -g
 g++ t_recv.cpp -o recv
 g++ test.cpp -o test
+echo generate input
 ./test > input.txt
+echo start exececut
 ./main
 
 

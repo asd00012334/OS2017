@@ -78,7 +78,6 @@ public:
 	void push(Task func){
 		taskAwait.push(func);
 	}
-	friend class Solver;
 };
 
 class Solver{
